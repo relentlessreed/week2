@@ -17,6 +17,7 @@ a {
 .header ul {
   color: var(--light);
   display: flex-wrap;
+  max-height: 100px;
   list-style-type: none;
 }
 
@@ -35,4 +36,16 @@ nav {
 .hero {
   display: grid;
   justify-content: align-center;
+}
+
+#work {
+  background-color: tomato;
+  display: grid;
+  align-items: column;
+}
+
+.placeholder {
+  max-width: 75%;
+  display: flex;
+  align-items: center;
 }

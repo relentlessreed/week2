@@ -2,8 +2,37 @@
   --dark: #1a1b4b;
   --dark-mid: #292a73;
   --light-mid: #3e4491;
+  --light: (rgb 66, 79, 86);
 }
 
 html {
-  background-color: var(--dark-mid);
+  background-color: var(--dark);
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+.header ul {
+  color: var(--light);
+  display: flex-wrap;
+  list-style-type: none;
+}
+
+.header1div {
+  display: flex;
+  align-items: center;
+}
+.header2div {
+  display: flex;
+  align-items: center;
+}
+nav {
+  align-items: center;
+}
+
+.hero {
+  display: grid;
+  justify-content: align-center;
 }
